@@ -1,0 +1,37 @@
+@media screen and (max-width: 479px) {
+  .header, .main-left, .main-right, .footer{
+    width: 200px;
+  }
+
+  .header{
+    height: 200px;
+  }
+
+    .header-block{
+      display: block;
+      height: 160px;
+      width: 60px;
+      margin-right: 50px;
+  }
+
+  .block1, .block2, .block3{
+    margin-left: 10px;
+    margin-top: 10px;
+    position: static;
+  }
+
+  .main{
+    flex-flow: column;
+  }
+
+  .main-right{
+    margin-top: 0px;
+  }
+
+  .right-block1, .right-block2, .right-block3{
+    margin-top: 10px;
+    box-sizing: border-box;
+    position: relative;
+    top: 20px; left: 30px;
+  }
+}
